@@ -42,7 +42,7 @@ function About() {
         </p>
       </div>
       <div className="w-1/2  border-solid border-teal-900 border-[3px] ">
-        <p className="text-[2rem] bg-teal-900  oswald text-white px-5 py-2 text-right">
+        <p className="text-[2rem] bg-teal-900  oswald text-white px-5 py-1">
           About Our College
         </p>
         <p className="text-[0.8rem] text-shadow-[1px_1px_0px_rgba(0,0,0,0.3)]  text-justify tracking-tight leading-[1.3] p-2">

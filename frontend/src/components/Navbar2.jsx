@@ -25,15 +25,7 @@ function Navbar2() {
       >
         About
       </a>
-      <a
-        onClick={() => {
-          const section = document.getElementById("callforpapers");
-          if (section) {
-            section.scrollIntoView({ behavior: "smooth" });
-          }
-        }}
-        
-      >
+      <a href="https://drive.google.com/file/d/1-0MBEh0kHjH5xXxl9cQM1OPI1U1YcfFW/view?usp=drive_link" target="main">
         Call For Papers
       </a>
       <a

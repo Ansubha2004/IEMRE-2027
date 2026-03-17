@@ -5,6 +5,7 @@ import Navbar2 from "./components/Navbar2.jsx";
 import Home from "./pages/Home.jsx";
 import Headline from "./components/Headline.jsx"
 import About from "./pages/About.jsx"
+import Contact from "./pages/Contact.jsx";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
           <Home/>
           <Headline/>
           <About/>
+          <Contact/>
         </main>
       
     </div>
