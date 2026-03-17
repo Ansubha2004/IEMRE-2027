@@ -47,3 +47,19 @@ input:-webkit-autofill {
   -webkit-text-fill-color: black !important;         /* text color to match */
   transition: background-color 9999s ease-in-out 0s;
 }
+.sekuya-regular {
+  font-family: "Sekuya", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.oswald {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.dm-serif-display-regular {
+  font-family: "DM Serif Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
