@@ -3,7 +3,7 @@ import homebackground from "../assets/images/homebackground.png";
 
 function Home() {
   return (
-    <section id="Home" className="relative h-[calc(100vh-6.4rem)] w-[100wh]">
+    <section id="Home" className="relative scroll-mt-[130px] h-[calc(100vh-6.4rem)] w-[100wh]">
       <img src={homebackground} className="absolute w-full h-full z-[0] " />
       <div className="relative oswald-text z-[1]  w-full h-full bg-black/40  flex flex-col justify-center items-center box-border px-[3%] py-[3%]">
         <p className=" text-[1.2rem] font-bold text-white text-shadow-[2px_2px_0px_rgba(0,0,0)] dm-serif-display-regular">6th International Conference</p>

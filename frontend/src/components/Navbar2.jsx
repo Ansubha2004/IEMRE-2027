@@ -10,7 +10,7 @@ function Navbar2() {
             section.scrollIntoView({ behavior: "smooth" });
           }
         }}
-        href=""
+        
       >
         Home
       </a>
@@ -21,7 +21,7 @@ function Navbar2() {
             section.scrollIntoView({ behavior: "smooth" });
           }
         }}
-        href=""
+        
       >
         About
       </a>
@@ -32,7 +32,7 @@ function Navbar2() {
             section.scrollIntoView({ behavior: "smooth" });
           }
         }}
-        href=""
+        
       >
         Call For Papers
       </a>
@@ -43,7 +43,7 @@ function Navbar2() {
             section.scrollIntoView({ behavior: "smooth" });
           }
         }}
-        href=""
+        
       >
         Keynote Speaker
       </a>
@@ -54,7 +54,7 @@ function Navbar2() {
             section.scrollIntoView({ behavior: "smooth" });
           }
         }}
-        href=""
+        
       >
         Keynote Dates
       </a>
@@ -65,7 +65,7 @@ function Navbar2() {
             section.scrollIntoView({ behavior: "smooth" });
           }
         }}
-        href=""
+        
       >
         Publication
       </a>
@@ -76,7 +76,7 @@ function Navbar2() {
             section.scrollIntoView({ behavior: "smooth" });
           }
         }}
-        href=""
+        
       >
         Submission Details
       </a>
@@ -87,7 +87,7 @@ function Navbar2() {
             section.scrollIntoView({ behavior: "smooth" });
           }
         }}
-        href=""
+        
       >
         Registrations
       </a>
@@ -98,7 +98,7 @@ function Navbar2() {
             section.scrollIntoView({ behavior: "smooth" });
           }
         }}
-        href=""
+        
       >
         Committee Members
       </a>
@@ -109,7 +109,7 @@ function Navbar2() {
             section.scrollIntoView({ behavior: "smooth" });
           }
         }}
-        href=""
+        
       >
         Contact
       </a>
