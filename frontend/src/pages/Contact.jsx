@@ -20,7 +20,7 @@ function Contact() {
     >
       <div className="w-full h-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="min-w-0">
-          <p className="oswald text-[3rem] text-[#FFE156] mb-2">IEMRE-2026</p>
+          <p className="oswald text-[3rem] text-[#FFE156] mb-2">IEMRE-2027</p>
           <p className="text-[0.85rem] leading-[1.5] text-white/90">
             6th International Conference on Innovation in Energy Management &
             Renewable Resources (Hybrid Mode), organised by the Department of
