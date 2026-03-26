@@ -10,7 +10,7 @@ function Keydates() {
       className="py-[2.5%] px-[5%] bg-green-50 box-border scroll-mt-[130px] w-full h-auto"
     >
       <p className="text-center oswald text-black  text-shadow-[1px_1px_0px_rgba(0,0,0,0.4)] text-[2rem]">Conference Timeline 2027</p><br />
-      <table className="w-full text-center mb-5 ">
+      <table className="w-full text-center mb-4 ">
         <thead className="bg-green-800 text-white oswald ">
             <tr className="h-10 text-[1.5rem] ">
                 <td className="w-1/2 border-r-[2px] ">Events</td>

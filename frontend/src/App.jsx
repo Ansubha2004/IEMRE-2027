@@ -7,6 +7,7 @@ import Headline from "./components/Headline.jsx"
 import About from "./pages/About.jsx"
 import Contact from "./pages/Contact.jsx";
 import Keydates from "./pages/Keydates.jsx";
+import Publication from "./pages/Publication.jsx";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Headline/>
           <About/>
           <Keydates/>
+          <Publication/>
           <Contact/>
           
         </main>

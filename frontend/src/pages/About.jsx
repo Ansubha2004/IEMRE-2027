@@ -8,9 +8,9 @@ function About() {
     >
       <div className="w-1/2">
         <p className="text-[2rem] text-teal-900 mb-3 oswald">
-          The 6th Conference Insight
+          The 6th Conference Insight On
         </p>
-        <p className="text-[0.8rem] text-shadow-[1px_1px_0px_rgba(0,0,0,0.3)]  text-justify tracking-tight leading-[1.3]">
+        <p className="text-[0.8rem]   text-justify tracking-tight leading-[1.3]">
           Energy forms the foundation of modern human civilization.
           Historically, the majority of global energy requirements have been
           fulfilled through fossil fuels. However, the continued dependence on
@@ -45,7 +45,7 @@ function About() {
         <p className="text-[2rem] bg-teal-900  oswald text-white px-5 py-1">
           About Our College
         </p>
-        <p className="text-[0.8rem] text-shadow-[1px_1px_0px_rgba(0,0,0,0.3)]  text-justify tracking-tight leading-[1.3] p-2">
+        <p className="text-[0.8rem] text-justify tracking-tight leading-[1.3] p-2">
           The{" "}
           <b>
             <a href="https://iem.edu.in/">
