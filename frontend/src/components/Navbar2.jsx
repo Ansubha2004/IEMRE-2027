@@ -41,7 +41,7 @@ function Navbar2() {
       </a>
       <a
         onClick={() => {
-          const section = document.getElementById("keynotedates");
+          const section = document.getElementById("keydates");
           if (section) {
             section.scrollIntoView({ behavior: "smooth" });
           }
