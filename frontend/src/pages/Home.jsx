@@ -13,7 +13,7 @@ function Home() {
         <p className="text-yellow-200 text-shadow-[1px_2px_3px_rgba(0,0,0)] mt-3">Department of Electrical Engineering (EE) </p>
         <p className="text-yellow-200 text-shadow-[1px_2px_3px_rgba(0,0,0)]">Institute of Engineering & Management, Kolkata</p>
         <br />
-        <p className="font-bold text-green-200 text-[1.5rem] text-shadow-[1px_2px_0px_rgba(0,0,0)] oswald">15th - 17th September, 2027 (Hybrid Mode)</p>
+        <p className="font-bold text-green-200 text-[1.5rem] text-shadow-[1px_2px_0px_rgba(0,0,0)] oswald">15th - 17th January, 2027 (Hybrid Mode)</p>
       </div>
     </section>
   );

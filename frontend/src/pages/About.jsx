@@ -22,7 +22,7 @@ function About() {
           challenges, calling for a comprehensive transformation of global
           energy policies and strategies. In line with this vision, the 6th
           International Conference on Innovations in Energy Management and
-          Renewable Resources (IEMRE 2026) is being organized by the Departments
+          Renewable Resources (IEMRE 2027) is being organized by the Departments
           of Electrical Engineering (NBA Accredited) and Electrical &
           Electronics Engineering at the Institute of Engineering & Management,
           Kolkata. The conference will be conducted in hybrid mode, continuing
