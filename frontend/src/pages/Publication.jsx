@@ -9,20 +9,33 @@ function Publication() {
       id="publication"
       className="py-[2.5%] px-[5%] gap-3 bg-green-100 box-border scroll-mt-[130px] w-full h-auto flex justify-center"
     >
-      <div className="border-[8px] box-border p-3 space-y-2 border-green-200">
+      <div className="border-[8px] box-border p-3 space-y-2 border-green-200 flex justify-center items-center">
         <img src={lecturenotes} alt="" className="w-50" />
-      
       </div>
-      <div className="box-border p-10 bg-green-200 flex-1">
-        <p className="oswald text-[2rem] text-teal-900 ">Publications</p>
-        <p className="text-amber-800">
+      <div className="box-border py-3 px-8  bg-green-200 flex-1  ">
+        <div className="w-full flex justify-between items-center lg:mt-4">
+          <p className="oswald text-[2rem] text-teal-900 ">Publications</p>
+          <div className="flex h-10 gap-1">
+            <img src={springer} alt="" className="border-[3px] box-border p-1 border-green-300" />
+            <img src={scopus} alt="" className="border-[3px] box-border p-1 border-green-300" />
+          </div>
+        </div>
+        <br />
+        <p className="text-amber-800 tracking-tight text-justify tracking-tight leading">
           It is planned to publish the peer reviewed and selected papers of
           conference as proceedings with Springer in their prestigious “Lecture
-          Notes in Electrical Engineering” series
-          (https://link.springer.com/series/7818). For detailed instructions for
-          author and editors of conference proceedings, kindly visit the
-          following link:
-          https://www.springer.com/us/authors-editors/conference-proceedings.
+          Notes in Electrical Engineering” series (
+          <a href="https://link.springer.com/series/7818" target="main">
+            https://link.springer.com/series/7818
+          </a>
+          ). For detailed instructions for author and editors of conference
+          proceedings, kindly visit the following link:
+          <a
+            href="https://www.springer.com/us/authors-editors/conference-proceedings"
+            target="main"
+          >
+            https://www.springer.com/us/authors-editors/conference-proceedings.
+          </a>
           Select papers from the conference will be published by Springer as a
           proceedings book volume. Springer will conduct quality checks on the
           accepted papers and only papers that pass these checks will be
