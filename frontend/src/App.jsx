@@ -4,6 +4,7 @@ import Navbar from "./components/Navbar.jsx";
 import Navbar2 from "./components/Navbar2.jsx";
 import Home from "./pages/Home.jsx";
 import Headline from "./components/Headline.jsx"
+import Headline2 from "./components/Headline2.jsx";
 import About from "./pages/About.jsx"
 import Contact from "./pages/Contact.jsx";
 import Keydates from "./pages/Keydates.jsx";
@@ -22,6 +23,7 @@ function App() {
           <About/>
           <Keydates/>
           <Publication/>
+          <Headline2/>
           <Contact/>
           
         </main>

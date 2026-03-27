@@ -7,9 +7,9 @@ function Publication() {
   return (
     <section
       id="publication"
-      className="py-[2.5%] px-[5%] gap-3 bg-green-100 box-border scroll-mt-[130px] w-full h-auto flex justify-center"
+      className="py-[3%] px-[5%] gap-3 bg-green-100 box-border scroll-mt-[130px] w-full h-auto flex justify-center"
     >
-      <div className="border-[8px] box-border p-3 space-y-2 border-green-200 flex justify-center items-center">
+      <div className="border-[8px] box-border p-2 border-green-200 flex justify-center items-center">
         <img src={lecturenotes} alt="" className="w-50" />
       </div>
       <div className="box-border py-3 px-8  bg-green-200 flex-1  ">
