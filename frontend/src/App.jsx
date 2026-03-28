@@ -9,6 +9,7 @@ import About from "./pages/About.jsx"
 import Contact from "./pages/Contact.jsx";
 import Keydates from "./pages/Keydates.jsx";
 import Publication from "./pages/Publication.jsx";
+import Submission from "./pages/Submission.jsx";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Keydates/>
           <Publication/>
           <Headline2/>
+          <Submission/>
           <Contact/>
           
         </main>

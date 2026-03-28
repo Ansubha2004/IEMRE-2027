@@ -21,7 +21,7 @@ function Publication() {
           </div>
         </div>
         <br />
-        <p className="text-amber-800 tracking-tight text-justify tracking-tight leading">
+        <p className="text-amber-900 text-justify tracking-tight leading-6 italic">
           It is planned to publish the peer reviewed and selected papers of
           conference as proceedings with Springer in their prestigious “Lecture
           Notes in Electrical Engineering” series (
