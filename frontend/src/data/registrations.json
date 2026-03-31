@@ -1,0 +1,26 @@
+[
+    {
+        "participant":"Indian Authors",
+        "participationtype":"Early Bird",
+        "FacultyAcademician":"6,000/-",
+        "CorporateIndustry":"7,000/-",
+        "StudentResearchScholar":"5,500/-",
+        "Participationonly":"1,000/-"
+    },
+    {
+        "participant":"Indian Authors",
+        "participationtype":"Regular",
+        "FacultyAcademician":"6,500/-",
+        "CorporateIndustry":"7,500/-",
+        "StudentResearchScholar":"6,000/-",
+        "Participationonly":"1,000/-"
+    },
+    {
+        "participant":"Foreign Participants",
+        "participationtype":"International Registration",
+        "FacultyAcademician":"$200",
+        "CorporateIndustry":"$200",
+        "StudentResearchScholar":"$150",
+        "Participationonly":"$50"
+    }
+]
