@@ -1,19 +1,23 @@
 [
     {
+        "event":"Paper Submission Begins",
+        "date":"1st June, 2026"
+    },
+    {
         "event":"Paper Submission Deadline",
-        "date":"30th July, 2025 (extended)"
+        "date":"31st August, 2026"
     },
     {
         "event":"Paper Acceptance Notification",
-        "date":"10th August, 2025"
+        "date":"1st October, 2026"
     },
     {
         "event":"Camera-Ready Paper Submission Deadline",
-        "date":"15th August, 2025"
+        "date":"15th November, 2026"
     },
     {
         "event":"Final Registration Deadline",
-        "date":"31st August, 2025"
+        "date":"1st December, 2026"
     },
     {
         "event":"Conference Date",

@@ -2,7 +2,7 @@ import React from "react";
 
 function Navbar2() {
   return (
-    <nav id="nav2" className="Navbar2 relative  bg-[#193B24] text-[white] border-b-[0.5px] border-white  ">
+    <nav id="nav2" className="Navbar2 relative  bg-[#193B24] text-[white] border-b-[0.5px] border-white cursor-pointer  ">
       <a
         onClick={() => {
           const section = document.getElementById("Home");

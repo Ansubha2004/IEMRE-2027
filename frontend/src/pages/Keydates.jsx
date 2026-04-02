@@ -21,8 +21,8 @@ function Keydates() {
             {
                 keydates.map((keydate,index)=>(
                     <tr key={index} className="h-13 ">
-                        <td className={clsx("w-1/2 italic border-r-[2px] border-white ",index%2==0 ?"bg-lime-100":"bg-lime-50")}>{keydate.event}</td>
-                        <td className={clsx("w-1/2 italic ",index%2==0 ?"bg-lime-100":"bg-lime-50")}>{keydate.date}</td>
+                        <td className={clsx("w-1/2 italic border-r-[2px] border-white ",index%2==1 ?"bg-lime-100":"bg-lime-50")}>{keydate.event}</td>
+                        <td className={clsx("w-1/2 italic ",index%2==1 ?"bg-lime-100":"bg-lime-50")}>{keydate.date}</td>
                     </tr>
                 ))
             }

@@ -1,0 +1,92 @@
+[
+    {
+      "name": "Prof. Frede Blaabjerg",
+      "title": "Professor",
+      "institution": "AAU Energy, The Faculty of Engineering and Science, Applied Power Electronic Systems",
+      "location": "Aalborg, Denmark"
+    },
+    {
+      "name": "Emeritus Professor Akhtar Kalam",
+      "title": "Professor",
+      "institution": "Institute for Sustainable Industries and Liveable Cities",
+      "location": "Australia"
+    },
+    {
+      "name": "Prof. Trapti Jain",
+      "title": "Professor",
+      "institution": "Electrical Engineering, IIT Indore",
+      "location": "India"
+    },
+    {
+      "name": "Prof. Debashis Chatterjee",
+      "title": "Professor",
+      "institution": "Electrical Engineering, Jadavpur University",
+      "location": "India"
+    },
+    {
+      "name": "Prof. Niladri Chakraborty",
+      "title": "Professor",
+      "institution": "Power Engineering, Jadavpur University",
+      "location": "India"
+    },
+    {
+      "name": "Prof. İlhami Çolak",
+      "title": "Professor",
+      "institution": "Istinye University, Department of Electrical and Electronics Engineering",
+      "location": "Istanbul, Turkey"
+    },
+    {
+      "name": "Prof. Adel Nasiri",
+      "title": "Professor",
+      "institution": "Electrical Engineering, Molinaroli College of Engineering and Computing, University of South Carolina",
+      "location": "USA"
+    },
+    {
+      "name": "Prof. Nalin Behari Dev Choudhury",
+      "title": "Professor",
+      "institution": "National Institute of Technology, Silchar",
+      "location": "India"
+    },
+    {
+      "name": "Prof. Arnab Sarkar",
+      "title": "Professor",
+      "institution": "Indian Institute of Technology (BHU)",
+      "location": "Varanasi, India"
+    },
+    {
+      "name": "Prof. Dr. Savita Nema",
+      "title": "Professor",
+      "institution": "MANIT",
+      "location": "Bhopal, India"
+    },
+    {
+      "name": "Professor Sedat Akleylek",
+      "title": "Professor",
+      "institution": "Istinye University",
+      "location": "Istanbul, Turkey"
+    },
+    {
+      "name": "Prof. Dr. Sarasij Das",
+      "title": "Associate Professor",
+      "institution": "IISc",
+      "location": "Bengaluru, India"
+    },
+    {
+      "name": "Prof. Valentina Emilia Balas",
+      "title": "Professor",
+      "institution": "Aurel Vlaicu University of Arad, Faculty of Engineering",
+      "location": "Arad, Romania"
+    },
+    {
+      "name": "Prof. Monica Siroux",
+      "title": "Professor",
+      "institution": "Energy Department, INSA Strasbourg",
+      "location": "Strasbourg, France"
+    },
+    {
+      "name": "Prof. Waheed Sabry",
+      "title": "Professor",
+      "institution": "Electrical Engineering, Military Technical College (MTC), Giza Engineering Institute (GEI)",
+      "location": "Cairo, Egypt"
+    }
+  ]

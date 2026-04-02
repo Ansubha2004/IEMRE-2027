@@ -11,6 +11,7 @@ import Keydates from "./pages/Keydates.jsx";
 import Publication from "./pages/Publication.jsx";
 import Submission from "./pages/Submission.jsx";
 import Registrations from "./pages/Registrations.jsx"
+import Committee from "./pages/Committee.jsx"
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Headline2/>
           <Submission/>
           <Registrations />
+          <Committee/>
           <Contact/>
           
         </main>
