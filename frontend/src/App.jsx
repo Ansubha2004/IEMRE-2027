@@ -11,7 +11,8 @@ import Keydates from "./pages/Keydates.jsx";
 import Publication from "./pages/Publication.jsx";
 import Submission from "./pages/Submission.jsx";
 import Registrations from "./pages/Registrations.jsx"
-import Committee from "./pages/Committee.jsx"
+import Committee from "./pages/Committee.jsx";
+import Papercalls from "./pages/Papercalls.jsx"
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Headline/>
           <About/>
           <Keydates/>
+          <Papercalls/>
           <Publication/>
           <Headline2/>
           <Submission/>

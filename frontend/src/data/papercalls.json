@@ -1,0 +1,40 @@
+[{
+    "title":"Solar photovoltaic and Solar Thermal",
+    "image":"/papers/1.png",
+    "body":"Quas alias incidunt Solar Thermal Power Generation, Solar Thermal Power Generation, Solar Power Applications, Materials for Solar Cells, Fabrication Techniques of Solar Cells, Testing of Solar Cells, Tracking Algorithms of Solar Modules, Thermo - Photovoltaic System, Grid Integration of Solar Energy"
+},
+{
+    "title":"Wind & Hydro Energy System",
+    "image":"/papers/2.png",
+    "body":"Estimation of Wind Energy, Design of Different Types of Wind Turbines, Small Hydro Energy Systems, Wind and Hydro Power Integration in Grid"
+},
+{
+    "title":"Biomass Based Energy Systems",
+    "image":"/papers/3.png",
+    "body":"Biofuels- Synthesis and Utilization, Processing ofDifferent Types of Biomasses, Hybrid Systems, Design of Different Types of Gasifiers, Life Cycle Assessment of Biofuels"
+},
+{
+    "title":"Other Renewable Resources",
+    "image":"/papers/4.png",
+    "body":"Tidal Energy, Wave Energy, Geothermal Energy, Optimization of Renewable Energy Systems"
+},
+{
+    "title":"Energy Storage & Management",
+    "image":"/papers/5.png",
+    "body":"Energy Storage and Technologies, Electrical Energy Storage, Different Types of Battery Technologies, Energy Storage Trends and Opportunities, Strategic Analysis of Energy Storage, Energy Management System, Cost Benefit Analysis of Renewable Energy Systems, Electric Vehicle Technologies & Interaction with the Grids."
+},
+{
+    "title":"Smart Grid Technologies",
+    "image":"/papers/6.png",
+    "body":"Design of Smart Grid, Modelling of Grid Environments, Demand Side Management, Demand Response, Smart Distribution System, Distributed Generation, Grid Integration, Power Electronics and Control Applications for Smart Grids."
+},
+{
+    "title":"Energy and Environment Policy",
+    "image":"/papers/7.png",
+    "body":"Deregulated Power Market, Green House Emissionfrom Energy Sources, Renewable Energy Impact on Climate Change, Impact Ofrenewable Energy Systems in National and International Economy"
+},
+{
+    "title":"AI & Control Applications in Renewable Energy Sectors",
+    "image":"/papers/8.png",
+    "body":"AI Applications to Renewable & Power Systems. Data Analytics & IOT for Renewable & Power Systems. Physical, Cyber & System Security in Smart Grids."
+}]

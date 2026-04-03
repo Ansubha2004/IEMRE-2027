@@ -2,9 +2,13 @@
 
 @layer components{
   .Navbar2{
-    @apply w-full box-border px-[5%] py-2 h-auto flex justify-evenly outline-none  items-center text-[0.55rem] gap-1 sm:gap-[1vw] sm:text-[0.8rem]  font-bold;
+    @apply w-full box-border px-[5%] h-9 flex justify-evenly outline-none  items-center text-[0.55rem] gap-1 sm:gap-[1vw] sm:text-[0.8rem]  font-bold;
   }
   .Navbar{
     @apply w-full box-border px-[1%] flex justify-evenly h-auto py-3;
+  }
+  .buttonanimate
+  {
+    @apply hover:opacity-90 active:scale-[0.95] transition-all ease-in-out;
   }
 }

@@ -46,7 +46,7 @@ function Committee() {
       <div className="flex flex-col w-full gap-1">
         {committees[pointer].data.map((members, index) => (
           <div
-            className="h-auto py-2 w-full gap-5 rounded-[5px]  border-[1px] text-white px-5 border-yellow-500/50 bg-green-700/50 flex justify-between items-center"
+            className="h-auto py-2 w-full gap-5 rounded-[5px] text-white px-5 bg-green-700/50 flex justify-between items-center"
             key={index}
           >
             <p className="text-[1rem] italic">
