@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import technicalcommittee from "../data/technicalcommittee.json";
 import advisorycommittee from "../data/advisorycommittee.json";
-import organizingcommittee from "../data/organizingcommitttee.json"
+import organizingcommittee from "../data/organizingcommitttee.json";
 
 function Committee() {
   const [pointer, setPointer] = useState(0);
@@ -15,9 +15,9 @@ function Committee() {
       data: technicalcommittee,
     },
     {
-        title: "Organizers",
-        data: organizingcommittee,
-      }
+      title: "Organizers",
+      data: organizingcommittee,
+    },
   ];
 
   const click = () => {
@@ -50,7 +50,7 @@ function Committee() {
             key={index}
           >
             <p className="text-[1rem] italic">
-              {index+1+". "+members.name}
+              {index + 1 + ". " + members.name}
             </p>
             <div className="flex-1 h-[1px] bg-white/50"></div>
             <div className="flex gap-2 text-[0.8rem]">
