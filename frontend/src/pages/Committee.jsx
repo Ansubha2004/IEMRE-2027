@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import technicalcommittee from "../data/technicalcommittee.json";
 import advisorycommittee from "../data/advisorycommittee.json";
+import organizingcommittee from "../data/organizingcommitttee.json"
 
 function Committee() {
   const [pointer, setPointer] = useState(0);
@@ -15,7 +16,7 @@ function Committee() {
     },
     {
         title: "Organizers",
-        data: technicalcommittee,
+        data: organizingcommittee,
       }
   ];
 
@@ -26,7 +27,7 @@ function Committee() {
   return (
     <section
       id="committee"
-      className="bg-gradient-to-tr from-green-950 to-green-800 border-b-[1px] border-white w-full h-auto box-border py-[2.5%] px-[5%] scroll-mt-[130px]"
+      className="bg-gradient-to-tr from-green-950 to-green-800 border-b-[1px] border-white w-full h-auto box-border pb-[4%] pt-[2.5%] px-[5%] scroll-mt-[130px]"
     >
       <div className="text-[2rem] oswald text-yellow-500 flex justify-between w-full items-center">
         <p className="">Committee Members</p>
@@ -42,10 +43,10 @@ function Committee() {
         </div>
       </div>
       <br />
-      <div className="flex flex-col w-full ">
+      <div className="flex flex-col w-full gap-1">
         {committees[pointer].data.map((members, index) => (
           <div
-            className="h-auto py-2 w-full gap-5 border-[1px] text-white px-5 border-yellow-500/50 bg-green-700/50 flex justify-between items-center"
+            className="h-auto py-2 w-full gap-5 rounded-[5px]  border-[1px] text-white px-5 border-yellow-500/50 bg-green-700/50 flex justify-between items-center"
             key={index}
           >
             <p className="text-[1rem] italic">
