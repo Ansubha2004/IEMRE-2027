@@ -4,10 +4,10 @@ function Contact() {
   const contact = {
     email: "iemre_2025@iem.edu.in",
     phones: [
-      "+91 7001406425",
-      "+91 9832326307",
       "+91 9674002637",
       "+91 9564612490",
+      "+91 9647645540",
+      "+91 9903564714",
     ],
     address:
       "Institute of Engineering & Management (IEM), Kolkata Management House, D-1, Sector-V, Salt Lake City Kolkata - 700091, West Bengal, India",
@@ -24,8 +24,7 @@ function Contact() {
           <p className="text-[0.85rem] leading-[1.5] text-white/90">
             6th International Conference on Innovation in Energy Management &
             Renewable Resources (Hybrid Mode), organised by the Department of
-            Electrical Engineering (EE) and Electrical & Electronics Engineering
-            (EEE), Institute of Engineering & Management, Kolkata.
+            Electrical Engineering (EE), Institute of Engineering & Management, Kolkata.
           </p>
         </div>
 

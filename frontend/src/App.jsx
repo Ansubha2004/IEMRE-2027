@@ -13,6 +13,7 @@ import Submission from "./pages/Submission.jsx";
 import Registrations from "./pages/Registrations.jsx"
 import Committee from "./pages/Committee.jsx";
 import Papercalls from "./pages/Papercalls.jsx"
+import Past from "./pages/Past.jsx"
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Submission/>
           <Registrations />
           <Committee/>
+          <Past/>
           <Contact/>
           
         </main>

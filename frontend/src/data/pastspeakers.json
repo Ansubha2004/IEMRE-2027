@@ -1,0 +1,66 @@
+[{
+    "heading":"IEMRE 2024",
+    "speakers":[{
+        "name":"Prof.(Dr.) Subhas Mukhopadhyay",
+        "image":"/pastspeakers/20241.png",
+        "description":"Macquarie University , Australia"
+    },
+    {
+        "name":"Prof. Soumya Shubhra Nag",
+        "image":"/pastspeakers/20242.png",
+        "description":"Assistant Professor, Indian Institute of Technology Delhi India."
+    },
+    {
+        "name":"Dr. Chirodeep Bakli",
+        "image":"/pastspeakers/20243.jpg",
+        "description":"Assistant Professor, IIT Kharagpur India"
+    },
+    {
+        "name":"Prof.(Dr.) Su Rong",
+        "image":"/pastspeakers/20244.jpg",
+        "description":"Electrical & Electronic Engineering, Nayang Technological University, Singapore."
+    },
+    {
+        "name":"Prof.(Dr.) Jawhar Ghommam",
+        "image":"/pastspeakers/20245.jpg",
+        "description":"Sultan Qaboos University, Oman."
+    }]
+},
+{
+    "heading":"IEMRE 2023",
+    "speakers":[{
+        "name":"Prof.(Dr.) Subhas Mukhopadhyay",
+        "image":"/pastspeakers/20241.png",
+        "description":"Macquarie University , Australia"
+    },
+    {
+        "name":"Prof. Soumya Shubhra Nag",
+        "image":"/pastspeakers/20242.png",
+        "description":"Assistant Professor, Indian Institute of Technology Delhi India."
+    },
+    {
+        "name":"Dr. Chirodeep Bakli",
+        "image":"/pastspeakers/20243.jpg",
+        "description":"Assistant Professor, IIT Kharagpur India"
+    },
+    {
+        "name":"Prof.(Dr.) Su Rong",
+        "image":"/pastspeakers/20244.jpg",
+        "description":"Electrical & Electronic Engineering, Nayang Technological University, Singapore."
+    },
+    {
+        "name":"Prof.(Dr.) Jawhar Ghommam",
+        "image":"/pastspeakers/20245.jpg",
+        "description":"Sultan Qaboos University, Oman."
+    },
+    {
+        "name":"Prof.(Dr.) Jawhar Ghommam",
+        "image":"/pastspeakers/20245.jpg",
+        "description":"Sultan Qaboos University, Oman."
+    },
+    {
+        "name":"Prof.(Dr.) Jawhar Ghommam",
+        "image":"/pastspeakers/20245.jpg",
+        "description":"Sultan Qaboos University, Oman."
+    }]
+}]
