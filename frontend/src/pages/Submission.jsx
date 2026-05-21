@@ -38,7 +38,7 @@ function Submission() {
                 <p className="font-bold text-[1.5rem] text-green-900">{submission.s1}</p>
                 <a href={submission.link} download className={clsx("flex gap-2 hover:text-blue-900  -translate-y-1 text-[1.2rem] italic  items-center font-[poppins]")}>
                   <p>{submission.s2}</p>
-                  <MoveRight strokeWidth={3} size={20} />
+                  <MoveRight strokeWidth={3} size={20} className="translate-y-0.5" />
                 </a>
             </div>
           </div>

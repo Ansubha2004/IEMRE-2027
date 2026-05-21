@@ -19,7 +19,7 @@ function Past() {
               </p>
             </div>
             <br />
-            <div className="flex flex-wrap justify-start items-center">
+            <div className="flex flex-wrap justify-start space-x-3.5 items-center">
                 {
                     speakers.speakers.map((speaker,index)=>(
                         <div className="flex flex-col w-50 items-center gap-1">

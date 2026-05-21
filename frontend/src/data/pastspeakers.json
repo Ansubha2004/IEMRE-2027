@@ -1,4 +1,48 @@
-[{
+[
+    {
+        "heading":"IEMRE 2025",
+        "speakers":[{
+            "name":"Prof. Trapti Jain",
+            "image":"/pastspeakers/20251.png",
+            "description":"Professor, Electrical Engineering, IIT Indore"
+        },
+        {
+            "name":"Prof. Debapriya Das",
+            "image":"/pastspeakers/20252.png",
+            "description":"Professor, Department of Electrical Engineering Indian Institute of Technology, Kharagpur"
+        },
+        {
+            "name":"Prof. Kaushik Das",
+            "image":"/pastspeakers/20253.png",
+            "description":"Associate Professor, Department of Wind and Energy Systems Renewable Plants in Energy Systems Wind Energy Systems Division, DTU, Denmark."
+        },
+        {
+            "name":"Prof. Dr. Avik Bhattacharya",
+            "image":"/pastspeakers/20254.png",
+            "description":"Associate Professor, IIT Roorkee."
+        },
+        {
+            "name":"Prof. Dr.Vaskar Sarkar",
+            "image":"/pastspeakers/20255.png",
+            "description":"Professor,IIT Hyderabad."
+        },
+        {
+            "name":"Prof. Amitava Datta",
+            "image":"/pastspeakers/20256.png",
+            "description":"Pro-Vice-Chancellor, Jadavpur University, Kolkata."
+        },
+        {
+            "name":"Prof. Pierluigi SIANO",
+            "image":"/pastspeakers/20257.png",
+            "description":"Full Professor of Electrical Energy Engineering, University of Salerno, Italy."
+        },
+        {
+            "name":"Dr. Imran Khan",
+            "image":"/pastspeakers/20258.png",
+            "description":"Senior Power System Engineer, Tesla Power, Victoria, Australia"
+        }]
+    },
+    {
     "heading":"IEMRE 2024",
     "speakers":[{
         "name":"Prof.(Dr.) Subhas Mukhopadhyay",
@@ -29,38 +73,38 @@
 {
     "heading":"IEMRE 2023",
     "speakers":[{
-        "name":"Prof.(Dr.) Subhas Mukhopadhyay",
-        "image":"/pastspeakers/20241.png",
-        "description":"Macquarie University , Australia"
+        "name":"Prof. Akhtar Kalam Professor",
+        "image":"/pastspeakers/20231.png",
+        "description":"Victoria University, Australia."
     },
     {
-        "name":"Prof. Soumya Shubhra Nag",
-        "image":"/pastspeakers/20242.png",
-        "description":"Assistant Professor, Indian Institute of Technology Delhi India."
+        "name":"Prof. M. Siroux",
+        "image":"/pastspeakers/20232.png",
+        "description":"Director of the Energy and Electrical Engineering Department, INSA Strasbourg, France."
     },
     {
-        "name":"Dr. Chirodeep Bakli",
-        "image":"/pastspeakers/20243.jpg",
-        "description":"Assistant Professor, IIT Kharagpur India"
+        "name":"Prof. Jeyraj Selvaraj",
+        "image":"/pastspeakers/20233.png",
+        "description":" Power Energy Dedicated Advanced Centre, University Malaya, Malaysia."
     },
     {
-        "name":"Prof.(Dr.) Su Rong",
-        "image":"/pastspeakers/20244.jpg",
-        "description":"Electrical & Electronic Engineering, Nayang Technological University, Singapore."
+        "name":"Prof. Josep M. Guerrero",
+        "image":"/pastspeakers/20234.png",
+        "description":"Professor, AAlborg University, Denmark."
     },
     {
-        "name":"Prof.(Dr.) Jawhar Ghommam",
-        "image":"/pastspeakers/20245.jpg",
-        "description":"Sultan Qaboos University, Oman."
+        "name":"Prof. M.V. Reddy ",
+        "image":"/pastspeakers/20235.png",
+        "description":"Professor of Materials Science & Engineering, National University of Singapore."
     },
     {
-        "name":"Prof.(Dr.) Jawhar Ghommam",
-        "image":"/pastspeakers/20245.jpg",
-        "description":"Sultan Qaboos University, Oman."
+        "name":"Prof. Dr. Valentina Emilia Balas",
+        "image":"/pastspeakers/20236.png",
+        "description":"Professor of Automation and Applied Informatics, Aurel Vlaicu University of Arad, Romania."
     },
     {
-        "name":"Prof.(Dr.) Jawhar Ghommam",
-        "image":"/pastspeakers/20245.jpg",
-        "description":"Sultan Qaboos University, Oman."
+        "name":"Prof. Saikat Chakraborty ",
+        "image":"/pastspeakers/20237.png",
+        "description":"Professor, Indian Institute of Technology, Kanpur."
     }]
 }]
