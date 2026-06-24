@@ -7,7 +7,7 @@ function Submission() {
     {
       s1: "Paper Submission Link",
       s2: "Submit Your Paper",
-      link: "https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FIEMRE2025%2FSubmission%2FIndex",
+      link: "",
       icon:<Link size={60} strokeWidth={2} color="#0d4a23" />
     },
     {
