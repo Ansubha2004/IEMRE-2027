@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import clsx from "clsx";
 import technicalcommittee from "../data/technicalcommittee.json";
 import advisorycommittee from "../data/advisorycommittee.json";
 import organizingcommittee from "../data/organizingcommitttee.json";
@@ -20,10 +21,8 @@ function Committee() {
     },
   ];
 
-  const click = () => {
-    setPointer((pointer + 1) % committees.length);
-  };
-
+  
+  
   return (
     <section
       id="committee"
@@ -32,14 +31,20 @@ function Committee() {
       <div className="text-[2rem] oswald text-yellow-500 flex justify-between w-full items-center">
         <p className="">Committee Members</p>
         <div
-          onClick={click}
           className="flex items-center gap-4 hover:cursor-pointer hover:opacity-80"
         >
-          <div className="h-[1.3rem] w-[3px]  rounded-full bg-yellow-500"></div>
-          <p className="dm-serif-display-regular text-[1.5rem] uppercase">
-            {committees[pointer].title}
-          </p>
-          <div className="h-[1.3rem] w-[3px]  rounded-full bg-yellow-500"></div>
+          <div className="dm-serif-display-regular flex gap-2 text-[0.7rem] uppercase">
+            {
+              committees.map((committee,index)=>(
+                <div key={index} onClick={()=>setPointer(index)} className={clsx("px-5 py-2 rounded-lg bg-[#193B24] text-green-100 font-medium hover:bg-[#245634] transition-all duration-300 ",pointer === index
+                  ? "bg-[#245634] text-white scale-105 border border-[#FFE156]"
+                  : "bg-[#193B24] text-green-100 hover:bg-[#245634] hover:scale-105")}>
+                    {committee.title}
+                </div>
+              ))
+            }
+          </div>
+
         </div>
       </div>
       <br />
