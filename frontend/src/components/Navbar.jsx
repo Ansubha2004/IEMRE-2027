@@ -10,7 +10,7 @@ import smart from "../assets/images/smart.png"
 import conferencealerts from "../assets/images/conferencealerts.png"
 
 function Navbar() {
-    const logos=[iemlogo,iei,springer,smart,iemrelogo,conferencealerts,polycab,iet,uemlogo]
+    const logos=[iemlogo,iei,springer,smart,iemrelogo,polycab,iet,uemlogo]
   return (
     <nav id="nav1" className="Navbar bg-white">
         {
