@@ -1,4 +1,5 @@
 import "./App.css";
+import {useEffect} from "react";
 import {Routes,Route} from "react-router-dom";
 import Navbar from "./components/Navbar.jsx";
 import Navbar2 from "./components/Navbar2.jsx";
@@ -16,6 +17,28 @@ import Papercalls from "./pages/Papercalls.jsx"
 import Past from "./pages/Past.jsx"
 
 function App() {
+
+  useEffect(() => {
+    const scrollToHash = () => {
+      const hash = window.location.hash;
+
+      if (hash) {
+        const element = document.querySelector(hash);
+
+        if (element) {
+          element.scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+          });
+        }
+      }
+    };
+
+    // Wait until React has rendered everything
+    setTimeout(scrollToHash, 100);
+  }, []);
+
+
   return (
     <div className="relative w-screen h-screen min-h-screen overflow-x-hidden">
       <div className="sticky top-0 z-[4]">

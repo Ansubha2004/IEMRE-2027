@@ -4,28 +4,33 @@ import clsx from "clsx";
 function Navbar2() {
   const [hovered, setHovered] = useState(false);
 
+  const scrollToSection = (id) => {
+    const section = document.getElementById(id);
+  
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+  
+      // Concatenate the id to the current path
+      window.history.replaceState(
+        null,
+        "",
+        `${window.location.pathname}#${id}`
+      );
+    }
+  };
+
   return (
     <nav
       id="nav2"
       className="Navbar2 relative  bg-[#193B24] text-[white] border-b-[0.5px] border-white cursor-pointer  "
     >
       <a
-        onClick={() => {
-          const section = document.getElementById("Home");
-          if (section) {
-            section.scrollIntoView({ behavior: "smooth" });
-          }
-        }}
+        onClick={() => scrollToSection("Home")}
       >
         Home
       </a>
       <a
-        onClick={() => {
-          const section = document.getElementById("About");
-          if (section) {
-            section.scrollIntoView({ behavior: "smooth" });
-          }
-        }}
+        onClick={() => scrollToSection("About")}
       >
         About
       </a>
@@ -34,10 +39,7 @@ function Navbar2() {
         onMouseLeave={()=>setHovered(false)}
         
         onClick={() => {
-          const section = document.getElementById("papercalls");
-          if (section) {
-            section.scrollIntoView({ behavior: "smooth" });
-          }
+          scrollToSection("papercalls")
           setHovered(false)
         }}
       >
@@ -45,72 +47,37 @@ function Navbar2() {
         <a   className={clsx("absolute top-8 left-5 px-4 py-1 rounded-[5px] bg-green-500 buttonanimate border-yellow-400/50 text-green-950 border-[1px]",hovered?"block":"hidden")} href="https://drive.google.com/file/d/1-0MBEh0kHjH5xXxl9cQM1OPI1U1YcfFW/view?usp=drive_link" target="main">Poster</a>
       </a>
       <a
-        onClick={() => {
-          const section = document.getElementById("keynotespeaker");
-          if (section) {
-            section.scrollIntoView({ behavior: "smooth" });
-          }
-        }}
+        onClick={() => scrollToSection("keynotespeaker")}
       >
         Keynote Speaker
       </a>
       <a
-        onClick={() => {
-          const section = document.getElementById("keydates");
-          if (section) {
-            section.scrollIntoView({ behavior: "smooth" });
-          }
-        }}
+        onClick={() => scrollToSection("keydates")}
       >
         Keynote Dates
       </a>
       <a
-        onClick={() => {
-          const section = document.getElementById("publication");
-          if (section) {
-            section.scrollIntoView({ behavior: "smooth" });
-          }
-        }}
+        onClick={() => scrollToSection("publication")}
       >
         Publication
       </a>
       <a
-        onClick={() => {
-          const section = document.getElementById("submission");
-          if (section) {
-            section.scrollIntoView({ behavior: "smooth" });
-          }
-        }}
+        onClick={() => scrollToSection("submission")}
       >
         Submission Details
       </a>
       <a
-        onClick={() => {
-          const section = document.getElementById("registration");
-          if (section) {
-            section.scrollIntoView({ behavior: "smooth" });
-          }
-        }}
+        onClick={() => scrollToSection("registration")}
       >
         Registrations
       </a>
       <a
-        onClick={() => {
-          const section = document.getElementById("committee");
-          if (section) {
-            section.scrollIntoView({ behavior: "smooth" });
-          }
-        }}
+        onClick={() => scrollToSection("committee")}
       >
         Committee Members
       </a>
       <a
-        onClick={() => {
-          const section = document.getElementById("contact");
-          if (section) {
-            section.scrollIntoView({ behavior: "smooth" });
-          }
-        }}
+        onClick={() => scrollToSection("contact")}
       >
         Contact
       </a>
