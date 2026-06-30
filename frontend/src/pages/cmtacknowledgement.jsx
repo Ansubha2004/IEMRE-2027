@@ -35,6 +35,25 @@ function CmtAcknowledgement() {
           <div className="p-8 space-y-8">
 
             {/* Conference Description */}
+            
+
+            {/* Official Acknowledgement */}
+            <div className="bg-green-100 border-l-8 border-green-700 rounded-xl p-6">
+
+              <h3 className="text-2xl font-bold text-teal-900 mb-4">
+                Official Microsoft CMT Acknowledgement
+              </h3>
+
+              <p className="italic font-semibold text-gray-900 text-lg leading-8 text-justify">
+                The Microsoft CMT service was used for managing the
+                peer-reviewing process for this conference. This service was
+                provided for free by Microsoft and they bore all expenses,
+                including costs for Azure cloud services as well as for
+                software development and support.
+              </p>
+
+            </div>
+
             <div>
               <h3 className="text-2xl font-semibold text-teal-900 mb-4">
                 About the Conference
@@ -52,23 +71,6 @@ function CmtAcknowledgement() {
                 grids, energy storage, energy management systems, electric
                 mobility, and related interdisciplinary research.
               </p>
-            </div>
-
-            {/* Official Acknowledgement */}
-            <div className="bg-green-100 border-l-8 border-green-700 rounded-xl p-6">
-
-              <h3 className="text-2xl font-bold text-teal-900 mb-4">
-                Official Microsoft CMT Acknowledgement
-              </h3>
-
-              <p className="italic font-semibold text-gray-900 text-lg leading-8 text-justify">
-                The Microsoft CMT service was used for managing the
-                peer-reviewing process for this conference. This service was
-                provided for free by Microsoft and they bore all expenses,
-                including costs for Azure cloud services as well as for
-                software development and support.
-              </p>
-
             </div>
 
             {/* About CMT */}
