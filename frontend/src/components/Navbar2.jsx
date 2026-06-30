@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import clsx from "clsx";
+import {Link } from "react-router-dom";
 
 function Navbar2() {
   const [hovered, setHovered] = useState(false);
@@ -66,6 +67,10 @@ function Navbar2() {
       >
         Submission Details
       </a>
+      <Link to="/cmt-acknowledgement"
+      >
+        CMT Acknowledgement
+      </Link>
       <a
         onClick={() => scrollToSection("registration")}
       >
